@@ -22,6 +22,12 @@ print(result)
 v.download('your_sample_hash', '/path/to/destination')
 ```
 
+## Usage for script
+```python
+python download_from_virusShare.py hash_file.txt /path/to/destination_folder
+
+```
+
 For further details on available methods like info, download, and others, refer to the library's documentation on GitHub or PyPI for additional guidance. This library provides functionality for rate limiting and error handling, which is helpful for automated malware sample analysis.
 
 
